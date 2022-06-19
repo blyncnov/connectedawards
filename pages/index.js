@@ -4,6 +4,7 @@ import Head from "next/head";
 import HeroSection from "../components/HeroSection";
 import OurTarget from "../components/OurTarget";
 import ShowCase from "../components/ShowCase";
+import OurVision from "../components/OurVision";
 
 export default function Home({ news }) {
   return (
@@ -19,6 +20,7 @@ export default function Home({ news }) {
       <HeroSection />
       <OurTarget />
       <ShowCase />
+      <OurVision />
     </>
   );
 }

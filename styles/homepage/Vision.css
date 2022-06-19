@@ -1,0 +1,45 @@
+.Vision__Container {
+  /* background-color: red; */
+  padding: 40px 0;
+}
+
+.Vision__Grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em;
+}
+
+.Vision__Row {
+  padding: 60px 20px;
+  margin: 10px auto;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.Vision__Row h4 {
+  font-size: 2rem;
+  color: #1f0231;
+}
+
+.Vision__Row p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .Vision__Container {
+    /* background-color: red; */
+    padding: 40px 0;
+  }
+
+  .Vision__Grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
+  }
+}
