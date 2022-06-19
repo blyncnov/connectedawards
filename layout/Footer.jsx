@@ -45,9 +45,9 @@ const Footer = () => {
                 height="70px"
                 width="70px"
               />
-              <h4>Celebrating Techies GloballyCelebrating Techies Globally</h4>
+              <h5>Celebrating Techies GloballyCelebrating Techies Globally</h5>
             </div>
-            <h4>© 2022 The Connected Awards - All rights reserved</h4>
+            <h6>© 2022 The Connected Awards - All rights reserved</h6>
           </div>
         </div>
       </div>
