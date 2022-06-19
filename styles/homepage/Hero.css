@@ -68,7 +68,12 @@ form {
 
 @media (max-width: 768px) {
   .HeroSection__Container__Text h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  .HeroSection__Container {
+    padding: 40px 0;
   }
 
   .HeroSection__Input__Section,
