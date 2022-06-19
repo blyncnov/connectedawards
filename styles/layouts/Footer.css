@@ -28,7 +28,7 @@
 }
 
 .Footer__Talk {
-  margin: 3em 0 2em 0;
+  margin: 3em 0 0 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
