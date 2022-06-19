@@ -28,7 +28,7 @@ const ShowCase = () => {
           </div>
           {/* -------SECOND PART ________ */}
           <div className="Showcase__Column">
-            <div className="Showcase__Row">
+            <div className="Showcase__Row order-2">
               <h4> Celebrated Techies</h4>
               <p>
                 After we concluded the first edition for Nigerians, The
@@ -39,8 +39,8 @@ const ShowCase = () => {
               </p>
               <button className="button Showcase__btn-1">Learn More</button>
             </div>
-            
-            <div className="Showcase__Row">
+
+            <div className="Showcase__Row order-1">
               <div className="Showcase__image">
                 <Image src="/img/2.png" alt="show" width="250" height="250" />
                 <Image src="/img/3.png" alt="show" width="250" height="250" />
