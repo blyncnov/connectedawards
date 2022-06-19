@@ -1,6 +1,11 @@
 .Showcase__container {
   width: 100%;
-  margin: 50px 0;
+
+  background: url(/icons/stripes.svg), url(/icons/stripesb.svg);
+  background-size: 100px;
+  background-position: bottom right, top right;
+  background-repeat: no-repeat;
+  padding: 70px 0;
 }
 
 .Showcase__Column {
@@ -15,10 +20,49 @@
   object-fit: cover;
 }
 
-.Showcase__Row h4{
-    font-size: 2.5rem;
-    font-weight: 500;
-    color: #3e0563;
+.Showcase__Row {
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.Showcase__Row h4 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: black;
+  position: relative;
+}
+
+.showcase__row h4::before {
+  content: "tgg";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 10px;
+  background-color: red;
+}
+
+.Showcase__Row h4 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: black;
+  position: relative;
+}
+
+.Showcase__Row p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: black;
+}
+
+.Showcase__btn-1 {
+  background-color: #3e0563;
+  color: white;
+  font-size: 15px;
 }
 
 @media (max-width: 768px) {

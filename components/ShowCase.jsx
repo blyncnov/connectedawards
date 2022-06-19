@@ -6,16 +6,15 @@ const ShowCase = () => {
     <>
       <div className="Showcase__container">
         <div className="max__width">
-          <h2>ShowCase</h2>
           <div className="Showcase__Column">
             <div className="Showcase__Row">
               <div className="Showcase__image">
-                <Image src="/img/1.png" alt="show" width="1000" height="500" />
+                <Image src="/img/1.png" alt="show" width="1000" height="800" />
               </div>
             </div>
             <div className="Showcase__Row">
               <h4> The Connected Awards</h4>
-              <br />
+           
               <p>
                 The Connected Awards is an independent global awarding body for
                 technology experts encouraging and appreciating their efforts in
@@ -25,8 +24,8 @@ const ShowCase = () => {
                 spirit in the tech space and recognize behind the screen solving
                 problems with their acquired skills. Techies are SUPERSTARS!
               </p>
-              <br />
-              <button className="button">Learn More</button>
+        
+              <button className="button Showcase__btn-1">Learn More</button>
             </div>
           </div>
         </div>
