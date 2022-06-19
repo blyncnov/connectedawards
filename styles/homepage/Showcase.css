@@ -1,0 +1,29 @@
+.Showcase__container {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.Showcase__Column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2em;
+}
+
+.Showcase__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Showcase__Row h4{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #3e0563;
+}
+
+@media (max-width: 768px) {
+  .Showcase__Column {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,92 @@
+.HeroSection__Container {
+  width: 100%;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.HeroSection__Container__Text {
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+}
+
+.HeroSection__Container__Text h1 {
+  font-size: 5.8rem;
+  font-weight: 500;
+  color: black;
+  margin: 0;
+  font-family: "Pulp Display", sans-serif;
+}
+
+.fork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colum2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.colum2 h3 {
+  font-weight: 400;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.HeroSection__Input__Section,
+form {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1em 0;
+  gap: 1em;
+  display: flex;
+}
+
+.HeroSection__Input {
+  font-size: 1rem;
+  padding: 24px 20px;
+  border: 1px solid rgba(219, 219, 219, 0.463);
+  border-radius: 3px;
+  font-weight: 400;
+  color: black;
+  flex: 1;
+}
+
+.HeroSection__btn-1 {
+  background-color: #3e0563;
+  color: white;
+  font-size: 14px;
+  padding: 24px 20px !important;
+}
+
+@media (max-width: 768px) {
+  .HeroSection__Container__Text h1 {
+    font-size: 3rem;
+  }
+
+  .HeroSection__Input__Section,
+  form {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .HeroSection__btn-1 {
+    width: 100%;
+  }
+
+  .HeroSection__Input {
+    grid-template-columns: 1fr;
+  }
+
+  .HeroSection__Input__Section,
+  form {
+    width: 100%;
+  }
+}

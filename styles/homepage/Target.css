@@ -1,0 +1,48 @@
+.OurTarget__Container {
+  background-color: #1f0231;
+  padding: 100px 0;
+  color: white;
+  background: #1f0231 url("/icons/Frame.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.Target__Container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.Target__Text h1 {
+  text-align: center;
+  margin-bottom: 2em;
+  font-size: 3rem;
+}
+
+.Target__Box {
+  width: 80%;
+  padding: 2em 3em;
+  margin: 12px auto;
+  border: 2px solid #9e82b1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+@media (max-width: 768px) {
+  .Target__Container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Target__Text h1 {
+    margin-bottom: 1em;
+  }
+
+  .Target__Box {
+    width: 90%;
+    padding: 30px 15px;
+  }
+}

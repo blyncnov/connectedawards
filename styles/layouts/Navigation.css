@@ -1,0 +1,80 @@
+.Navigation__Container {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgba(219, 219, 219, 0.463);
+}
+
+.Navigation__Container--Navbar {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 1em 0;
+}
+
+.Navigation__Column {
+  width: auto;
+}
+
+.Navigation__Row {
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navigation__Logo {
+  cursor: pointer;
+}
+
+.Navigation__Items {
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navigation__Lists {
+  display: flex;
+  gap: 1.5em;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Navigation__Actions {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.Navigation__btn-1 {
+  background-color: #eee8f2;
+  color: #3e0563;
+}
+
+.Navigation__btn-2 {
+  background-color: #3e0563;
+  color: white;
+}
+
+.Navigation__Mobile {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .Navigation__Actions {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .Navigation__Lists {
+    display: none;
+  }
+
+  .Navigation__Mobile {
+    display: block;
+  }
+
+  .Navigation__Container--Navbar {
+    padding: 0.5em 0;
+  }
+}
