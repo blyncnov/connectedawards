@@ -1,5 +1,6 @@
 import Layouts from "../layout";
 import "../styles/globals.css";
+import "../styles/font.css";
 import "../styles/constants/helper.css";
 import "../styles/homepage/Hero.css";
 import "../styles/homepage/Target.css";
