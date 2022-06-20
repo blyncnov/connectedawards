@@ -25,8 +25,17 @@ const Navigation = () => {
                     <li>Categories</li>
                     <li>Past editions</li>
                     <li>Future editions</li>
-                    <li>About us</li>
-                    <li>Make a donation</li>
+                    <li>
+                      <Link href="/about">
+                        <a style={{ color: "black" }}> About us</a>
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link href="/donations">
+                        <a style={{ color: "black" }}>Make a donation</a>
+                      </Link>
+                    </li>
                   </ul>
                   <div className="Navigation__Actions">
                     <Link href="/auth/login">

@@ -49,8 +49,10 @@ const Login = () => {
                   Password <span>*</span>{" "}
                 </label>
                 <input type="text" className="g" />
+                <br />
                 <input type="submit" className="submit" value="Login" />
               </form>
+              <br />
               <h5 style={{ color: "#1f0231" }}>Forgot Password</h5>
             </div>
           </div>

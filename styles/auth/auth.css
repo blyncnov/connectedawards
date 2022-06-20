@@ -90,7 +90,6 @@ label span {
 
 input,
 select {
-  margin: 1em 0;
   border: 1px solid #dcdcdc;
   display: block;
   width: 100%;

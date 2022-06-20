@@ -77,12 +77,14 @@ const SignUp = () => {
                   <option value="Female">Female</option>
                   <option value="Others">Others</option>
                 </select>
+                <br />
                 <input
                   type="submit"
                   className="submit"
                   value="Create my account"
                 />
               </form>
+              <br />
               <h5 style={{ color: "#1f0231" }}>Forgot Password</h5>
             </div>
           </div>
