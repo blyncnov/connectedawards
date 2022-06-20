@@ -1,7 +1,4 @@
 import React from "react";
-import Image from "next/image";
-
-import { GiAfrica } from "react-icons/gi";
 
 import Techiesdata from "../data/Techies";
 

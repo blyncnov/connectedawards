@@ -67,11 +67,52 @@
 
 @media (max-width: 768px) {
   .Navigation__Lists {
-    display: none;
+    display: block;
+  }
+
+  .Navigation__Actions {
+    display: block;
+  }
+
+  .activeno {
+    left: 0 !important;
+  }
+
+  .Navigation__Items {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: all 0.5s ease-in;
+    background-color: white;
+    height: 100vh;
+    padding: 2em;
+    z-index: 99999;
+  }
+
+  .Navigation__Items li,
+  .Navigation__btn-1,
+  .Navigation__btn-2 {
+    margin: 1em 0;
+  }
+
+  .Navigation__Items li {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 0;
+  }
+
+  .Navigation__btn-1,
+  .Navigation__btn-2 {
+    width: 100%;
+    cursor: pointer;
+    z-index: 99999;
   }
 
   .Navigation__Mobile {
     display: block;
+    position: relative;
+    z-index: 999999;
   }
 
   .Navigation__Container--Navbar {

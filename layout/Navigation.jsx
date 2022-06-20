@@ -2,9 +2,16 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navigation = () => {
+  const [isClicked, setIsClicked] = React.useState(false);
+
+  const IsClickedHandler = () => {
+    setIsClicked(!isClicked);
+    console.log("i love click");
+  };
+
   return (
     <>
       <div className="Navigation__Container">
@@ -13,14 +20,26 @@ const Navigation = () => {
             <div className="Navigation__Column">
               <div className="Navigation__Row">
                 <div className="Navigation__Logo">
-                  <Image
-                    src="/logo.svg"
-                    alt="logo"
-                    height="70px"
-                    width="70px"
-                  />
+                  <li>
+                    <Link href="/">
+                      <a>
+                        <Image
+                          src="/logo.svg"
+                          alt="logo"
+                          height="70px"
+                          width="70px"
+                        />
+                      </a>
+                    </Link>
+                  </li>
                 </div>
-                <div className="Navigation__Items">
+                <div
+                  className={
+                    isClicked
+                      ? "Navigation__Items activeno"
+                      : "Navigation__Items"
+                  }
+                >
                   <ul className="Navigation__Lists">
                     <li>Categories</li>
 
@@ -65,9 +84,13 @@ const Navigation = () => {
                       </a>
                     </Link>
                   </div>
-                  <div className="Navigation__Mobile">
+                </div>
+                <div className="Navigation__Mobile" onClick={IsClickedHandler}>
+                  {isClicked ? (
+                    <FaTimes style={{ fontSize: "1.5em" }} />
+                  ) : (
                     <FaBars style={{ fontSize: "1.5em" }} />
-                  </div>
+                  )}
                 </div>
               </div>
             </div>

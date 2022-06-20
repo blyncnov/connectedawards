@@ -11,18 +11,16 @@ const OurVision = () => {
           <div className="Vision__Grid">
             {OurVisionData.map((vision) => {
               return (
-                <>
-                  <div className="Vision__Row">
-                    <Image
-                      src={vision.icon}
-                      alt={vision.name}
-                      width="100px"
-                      height="80px"
-                    />
-                    <h4>{vision.name}</h4>
-                    <p>{vision.details}</p>
-                  </div>
-                </>
+                <div key={vision.id} className="Vision__Row">
+                  <Image
+                    src={vision.icon}
+                    alt={vision.name}
+                    width="100px"
+                    height="80px"
+                  />
+                  <h4>{vision.name}</h4>
+                  <p>{vision.details}</p>
+                </div>
               );
             })}
           </div>
