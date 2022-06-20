@@ -32,23 +32,27 @@ const Footer = () => {
             <div className="Footer__Row">
               <h3>Contact</h3>
               <li>
-                {" "}
+        
                 <RiMessage3Fill /> hello@theconnectedawards.com
               </li>
             </div>
           </div>
-          <div className="Footer__Talk">
-            <div>
-              <Image
-                src="/icons/logo2.svg"
-                alt="logo"
-                height="70px"
-                width="70px"
-              />
-              <h5>Celebrating Techies GloballyCelebrating Techies Globally</h5>
+          <>
+            <div className="Footer__Talk">
+              <div>
+                <Image
+                  src="/icons/logo2.svg"
+                  alt="logo"
+                  height="70px"
+                  width="70px"
+                />
+                <h5>
+                  Celebrating Techies GloballyCelebrating Techies Globally
+                </h5>
+              </div>
+              <h6>© 2022 The Connected Awards - All rights reserved</h6>
             </div>
-            <h6>© 2022 The Connected Awards - All rights reserved</h6>
-          </div>
+          </>
         </div>
       </div>
     </>

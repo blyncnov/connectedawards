@@ -1,0 +1,111 @@
+.Login__Container {
+  width: 100%;
+  padding: 40px 0;
+  background: #1f0231 url(/icons/Frame.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Login__Column {
+  width: 50%;
+  padding: 100px 2em;
+  background-color: white;
+  border-radius: 3px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Login__Text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.Login__Text .a {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.Login__Text .b {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.Login__Text .c {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.hr {
+  font-weight: 400;
+}
+
+.c span {
+  color: orange;
+}
+
+.Login__Button {
+  box-shadow: none;
+  padding: 15px 0;
+  font-size: 14px;
+  text-align: center;
+  color: #150221;
+  width: 100%;
+  background: rgba(216, 205, 224, 0.1);
+  border: 1px solid #d8cde0;
+  margin: 0 auto;
+}
+
+.Login__Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  text-align: start;
+  margin: 0 auto;
+  display: block;
+}
+
+label {
+  font-weight: 600;
+  margin: 1em 0;
+  display: block;
+}
+
+label span {
+  color: red;
+}
+
+input,
+select {
+  margin: 1em 0;
+  border: 1px solid #dcdcdc;
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 17px 16px;
+  font-size: 14px;
+  background: transparent;
+  color: #1f0231;
+}
+
+.side-by-side {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+.submit {
+  background-color: #3e0563;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .Login__Column {
+    width: 100%;
+  }
+}
