@@ -51,6 +51,11 @@
   width: 100%;
 }
 
+.Peers li {
+  list-style-type: disc;
+  margin: 0.6em;
+}
+
 /* @media (max-width: 768px){
 
 } */

@@ -36,16 +36,23 @@ const Donations = () => {
                   Make Donations
                 </button>
               </div>
-              <h4> The Connected Awards</h4>
-              <p>
-                We are a small team that believes in creating new norms for the
-                technological work culture. Techies should be celebrated because
-                of the effort, skills, strength they put to make the world a
-                better place. Every business will strive X 10 times when they
-                utilize digital solutions to simplify their work done. As an
-                independent body, we are not influenced by any brand, individual
-                or government agency. We let the voters decide!!
-              </p>
+              {/* <h4> The Connected Awards</h4> */}
+              <ul className="Peers">
+                <li> The Connected Hack-ton in Major Cities across Africa</li>
+                <li>
+                  The Peer to Gear Competition for Secondary School Students in
+                  Africa
+                </li>
+                <li>Marathon Events across various Cities in Africa</li>
+                <li>
+                  Tech-awareness across various schools, towns and villages in
+                  Africa
+                </li>
+                <li>
+                  Empowering more ladies in tech to bring a balance to the
+                  African ecosystem
+                </li>
+              </ul>
             </div>
 
             <div className="Showcase__Row">
