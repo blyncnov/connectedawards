@@ -7,6 +7,13 @@
   background-position: center;
 }
 
+.goBackHome {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  cursor: pointer;
+}
+
 .Login__Column {
   width: 50%;
   padding: 100px 2em;

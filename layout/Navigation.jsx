@@ -1,5 +1,6 @@
-import Image from "next/image";
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 import { FaBars } from "react-icons/fa";
 
@@ -28,10 +29,21 @@ const Navigation = () => {
                     <li>Make a donation</li>
                   </ul>
                   <div className="Navigation__Actions">
-                    <button className="button Navigation__btn-1">Log in</button>
-                    <button className="button Navigation__btn-2">
-                      Create Account
-                    </button>
+                    <Link href="/auth/login">
+                      <a style={{ color: "#1f0231" }}>
+                        <button className="button Navigation__btn-1">
+                          Log in
+                        </button>
+                      </a>
+                    </Link>
+
+                    <Link href="/auth/signup">
+                      <a style={{ color: "white" }}>
+                        <button className="button Navigation__btn-2">
+                          Create Account
+                        </button>
+                      </a>
+                    </Link>
                   </div>
                   <div className="Navigation__Mobile">
                     <FaBars style={{ fontSize: "1.5em" }} />

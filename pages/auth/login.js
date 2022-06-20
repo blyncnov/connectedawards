@@ -1,6 +1,8 @@
 import React from "react";
+import Link from "next/link";
 
 import { FcGoogle } from "react-icons/fc";
+import { FaLongArrowAltLeft } from "react-icons/fa";
 
 const Login = () => {
   return (
@@ -8,11 +10,23 @@ const Login = () => {
       <div className="Login__Container">
         <div className="max__width">
           <div className="Login__Column">
+            <h5 className="goBackHome">
+              <FaLongArrowAltLeft />{" "}
+              <Link href="/">
+                <a style={{ color: "black" }}>Home</a>
+              </Link>
+            </h5>
+            <br />
             <div className="Login__Text">
               <h4 className="a">Lets pick up where we left off, yeah?</h4>
               <h4 className="b">Log in to your account</h4>
               <h4 className="c">
-                Dont have an account? <span>Sign Up</span>{" "}
+                Dont have an account?{" "}
+                <span>
+                  <Link href="/auth/signup">
+                    <a style={{ color: "orange" }}>Sign Up</a>
+                  </Link>
+                </span>{" "}
               </h4>
               <button className="button Login__Button">
                 <FcGoogle />
@@ -37,7 +51,7 @@ const Login = () => {
                 <input type="text" className="g" />
                 <input type="submit" className="submit" value="Login" />
               </form>
-              <h5>Forgot Password</h5>
+              <h5 style={{ color: "#1f0231" }}>Forgot Password</h5>
             </div>
           </div>
         </div>
