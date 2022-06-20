@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.About__Header__Text h3 {
+  color: grey;
+  margin-top: 0.4em;
+  font-weight: 500;
+}
+
 .About__Show__image {
   width: 100%;
+  object-fit: cover;
+}
+
+.About__Show__image img {
+  object-fit: cover;
 }

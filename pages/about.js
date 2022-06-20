@@ -10,8 +10,17 @@ const About = () => {
             <h1>The Connected Awards</h1>
             <h3>Learn about us</h3>
           </div>
+          <br />
+          <br />
           <div className="About__Show__image">
-            <Image src="/img/2.png" alt="show" width="1000" height="500" />
+            <Image
+              style={{ width: "100%" }}
+              src="/img/2.png"
+              alt="show"
+              width="1000"
+              height="500"
+              quality={90}
+            />
           </div>
           <div className="Showcase__Column">
             <div className="Showcase__Row">
