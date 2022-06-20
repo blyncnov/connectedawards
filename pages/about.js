@@ -23,7 +23,7 @@ const About = () => {
             />
           </div>
           <div className="Showcase__Column">
-            <div className="Showcase__Row">
+            <div className="Showcase__Row order-2">
               <h4> The Connected Awards</h4>
               <p>
                 We are a small team that believes in creating new norms for the
