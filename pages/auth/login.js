@@ -26,7 +26,7 @@ const Login = () => {
             </h5>
             <br></br>
             <div className="Login__Form">
-              <form>
+              <form className="auth__Form">
                 <label htmlFor="username">
                   Email Address <span>*</span>{" "}
                 </label>

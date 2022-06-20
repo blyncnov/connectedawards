@@ -14,7 +14,7 @@ const HeroSection = () => {
 
             <div className="colum2">
               <div className="HeroSection__Input__Section">
-                <form>
+                <form className="Hero__Form">
                   <input
                     type="text"
                     className="HeroSection__Input"

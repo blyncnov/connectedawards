@@ -41,7 +41,7 @@
 }
 
 .HeroSection__Input__Section,
-form {
+.Hero__Form {
   width: 90%;
   margin: 0 auto;
   padding: 1em 0;
@@ -77,7 +77,7 @@ form {
   }
 
   .HeroSection__Input__Section,
-  form {
+  .Hero__Form {
     flex-direction: column;
     width: 100%;
   }
@@ -91,7 +91,7 @@ form {
   }
 
   .HeroSection__Input__Section,
-  form {
+  .Hero__Form {
     width: 100%;
   }
 }
