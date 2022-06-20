@@ -12,11 +12,12 @@
   align-items: center;
   gap: 0.6em;
   cursor: pointer;
+  margin: 0 0 1em 0;
 }
 
 .Login__Column {
   width: 50%;
-  padding: 100px 2em;
+  padding: 60px 2em 100px 2em;
   background-color: white;
   border-radius: 3px;
   margin: 0 auto;
