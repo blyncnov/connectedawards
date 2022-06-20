@@ -40,7 +40,7 @@ const Navigation = () => {
                       : "Navigation__Items"
                   }
                 >
-                  <ul className="Navigation__Lists">
+                  <ul className="Navigation__Lists" onClick={IsClickedHandler}>
                     <li>Categories</li>
 
                     <li>

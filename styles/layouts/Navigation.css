@@ -95,6 +95,7 @@
   .Navigation__btn-1,
   .Navigation__btn-2 {
     margin: 1em 0;
+        z-index: 9999999;
   }
 
   .Navigation__Items li {
