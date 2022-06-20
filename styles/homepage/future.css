@@ -22,6 +22,13 @@
   color: white;
 }
 
+.dummy__image {
+  background-color: #d1d1d6;
+  height: 150px;
+  width: 150px;
+  border-radius: 2px;
+}
+
 @media (max-width: 768px) {
   .Future__Grid {
     display: grid;

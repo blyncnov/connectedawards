@@ -20,7 +20,7 @@ const Techies = () => {
             {Techiesdata.map((techie) => {
               return (
                 <div key={techie.id} className="Future__Box">
-                  <Image src="/img/2.png" alt="show" width="150" height="150" />
+                  <div className="dummy__image"></div>
                   <h4>{techie.name}</h4>
                 </div>
               );
