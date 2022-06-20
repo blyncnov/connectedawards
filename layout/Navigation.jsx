@@ -23,8 +23,19 @@ const Navigation = () => {
                 <div className="Navigation__Items">
                   <ul className="Navigation__Lists">
                     <li>Categories</li>
-                    <li>Past editions</li>
-                    <li>Future editions</li>
+
+                    <li>
+                      <Link href="/techies">
+                        <a style={{ color: "black" }}>Past editions</a>
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link href="/future">
+                        <a style={{ color: "black" }}> Future editions</a>
+                      </Link>
+                    </li>
+
                     <li>
                       <Link href="/about">
                         <a style={{ color: "black" }}> About us</a>

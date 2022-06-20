@@ -6,6 +6,7 @@ import "../styles/homepage/Hero.css";
 import "../styles/homepage/Target.css";
 import "../styles/homepage/Vision.css";
 import "../styles/homepage/Showcase.css";
+import "../styles/homepage/future.css";
 import "../styles/layouts/Navigation.css";
 import "../styles/layouts/Footer.css";
 import "../styles/auth/auth.css";

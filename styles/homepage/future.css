@@ -1,0 +1,31 @@
+.Future__Grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 2em 0 3em 0;
+}
+
+.Future__Box {
+  width: 80%;
+  margin: 10px auto;
+  background: #ffffff;
+  box-shadow: 0px 2px 15px rgb(230 230 230 / 50%);
+  border-radius: 8px;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+.Nominate__btn {
+  background-color: #3e0563;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .Future__Grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 2em 0 3em 0;
+  }
+}
