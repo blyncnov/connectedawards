@@ -19,13 +19,16 @@ const About = () => {
             <div className="Showcase__Row order-2">
               <h4> The Connected Awards</h4>
               <p>
-                We are a small team that believes in creating new norms for the
-                technological work culture. Techies should be celebrated because
-                of the effort, skills, strength they put to make the world a
-                better place. Every business will strive X 10 times when they
-                utilize digital solutions to simplify their work done. As an
-                independent body, we are not influenced by any brand, individual
-                or government agency. We let the voters decide!!
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
               </p>
               <button className="button Showcase__btn-1">Learn More</button>
             </div>

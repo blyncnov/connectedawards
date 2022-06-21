@@ -24,10 +24,22 @@
 
 .dummy__image {
   background-color: #d1d1d6;
-  height: 100px;
+  height: 150px;
   width: 100%;
   border-radius: 2px;
 }
+
+.Nominee__arrow {
+  display: flex;
+  text-align: end;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+  .Nominee__role {
+    text-align: center;
+  }
 
 @media (max-width: 768px) {
   .Future__Grid {
@@ -35,4 +47,13 @@
     grid-template-columns: repeat(1, 1fr);
     margin: 2em 0 3em 0;
   }
+
+  .Nominee__Grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dummy__image {
+    height: 150px;
+  }
+
 }

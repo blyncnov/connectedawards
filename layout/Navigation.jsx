@@ -41,7 +41,11 @@ const Navigation = () => {
                   }
                 >
                   <ul className="Navigation__Lists" onClick={IsClickedHandler}>
-                    <li>Categories</li>
+                    <li>
+                      <Link href="/categories">
+                        <a style={{ color: "black" }}>Categories</a>
+                      </Link>
+                    </li>
 
                     <li>
                       <Link href="/techies">
