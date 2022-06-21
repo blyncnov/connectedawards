@@ -10,7 +10,7 @@
   background: #ffffff;
   box-shadow: 0px 2px 15px rgb(230 230 230 / 50%);
   border-radius: 8px;
-  padding: 20px 10px;
+  padding: 20px 2em;
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -32,7 +32,7 @@
 @media (max-width: 768px) {
   .Future__Grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin: 2em 0 3em 0;
   }
 }

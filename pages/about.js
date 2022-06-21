@@ -13,14 +13,7 @@ const About = () => {
           <br />
           <br />
           <div className="About__Show__image">
-            <Image
-              style={{ width: "100%" }}
-              src="/img/2.png"
-              alt="show"
-              width="1000"
-              height="500"
-              quality={90}
-            />
+            <img src="/img/6.png" alt="show" />
           </div>
           <div className="Showcase__Column">
             <div className="Showcase__Row order-2">
@@ -39,7 +32,7 @@ const About = () => {
 
             <div className="Showcase__Row">
               <div className="Showcase__images">
-                <Image src="/img/1.png" alt="show" width="1000" height="800" />
+                <img src="/img/1.png" alt="show" />
               </div>
             </div>
           </div>

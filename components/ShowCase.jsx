@@ -9,7 +9,10 @@ const ShowCase = () => {
           <div className="Showcase__Column">
             <div className="Showcase__Row">
               <div className="Showcase__images">
-                <Image src="/img/1.png" alt="show" width="1000" height="800" />
+                <Image src="/img/1.png" alt="show"
+                  layout="fill"
+                  objectFit="cover"
+                />
               </div>
             </div>
             <div className="Showcase__Row">

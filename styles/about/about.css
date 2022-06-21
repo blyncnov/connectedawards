@@ -8,13 +8,16 @@
   font-weight: 500;
 }
 
-.About__Show__image {
+.About__Show__image img {
   width: 100%;
-  object-fit: cover;
+  height: 100%;
+  max-width: 100%;
 }
 
-.About__Show__image img {
-  object-fit: cover;
+.Showcase__images img {
+  width: 100%;
+  /* height: 100%; */
+  max-width: 100%;
 }
 
 .DonateFlex {

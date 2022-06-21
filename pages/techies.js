@@ -19,6 +19,7 @@ const Techies = () => {
                 <div key={techie.id} className="Future__Box">
                   <div className="dummy__image"></div>
                   <h4>{techie.name}</h4>
+                  <h5>{techie.role}</h5>
                 </div>
               );
             })}

@@ -12,12 +12,14 @@ const OurVision = () => {
             {OurVisionData.map((vision) => {
               return (
                 <div key={vision.id} className="Vision__Row">
-                  <Image
-                    src={vision.icon}
-                    alt={vision.name}
-                    width="100px"
-                    height="80px"
-                  />
+                  <div>
+                    <Image
+                      src={vision.icon}
+                      alt={vision.name}
+                      width="100px"
+                      height="80px"
+                    />
+                  </div>
                   <h4>{vision.name}</h4>
                   <p>{vision.details}</p>
                 </div>
